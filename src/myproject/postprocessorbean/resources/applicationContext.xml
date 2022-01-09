@@ -6,10 +6,10 @@
  <bean id="accBean" class="myproject.postprocessorbean.beans.Account" >
  <property name="accNo" value="123456"/>
  <property name="accHolderName" value="Himanshu"/>
- <!--  <property name="accType" value="Savings"/>-->
+ <property name="accType" value="Current"/>
  <property name="balance" value="60000"/>
- <property name="accHolderEmail" value="himanshu"/>
- <property name="accHolderMobileNo" value="7894561230"/>
+ <property name="accHolderEmail" value="himanshu@icloud.com"/>
+ <property name="accHolderMobileNo" value="+917894561230"/>
  
  
  </bean>

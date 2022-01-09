@@ -10,6 +10,7 @@ public class AccountPostProcessor implements BeanPostProcessor {
 	@Override
 	public Object postProcessAfterInitialization(Object bean, String name) throws BeansException {
 		Account acc = (Account) bean;
+		if(acc.getAccType()==null)
 		acc.setAccType("Savings");
 		return acc;
 	}
